@@ -1,0 +1,29 @@
+{
+  "name": "login-system",
+  "version": "1.0.0",
+  "description": "Mobile number + Email based Login System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Ankit Guddewala",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.12",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "twilio": "^3.37.1",
+    "validator": "^12.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
